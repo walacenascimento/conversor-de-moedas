@@ -11,9 +11,9 @@ public class Menu {
             System.out.println("""
                     1 - BRL --> USD
                     2 - BRL --> EUR
-                    3 - USD --> BRL
-                    4 - EUR --> BRL
-                    5 - USD --> EUR
+                    3 - USD --> EUR
+                    4 - USD --> BRL
+                    5 - EUR --> BRL
                     6 - EUR --> USD
                     7 - SAIR
                     Escolha uma das opções a ser convertido
@@ -29,15 +29,15 @@ public class Menu {
                         break;
 
                     case "3":
-                        this.converter("USD", "BRL");
+                        this.converter("USD", "EUR");
                         break;
 
                     case "4":
-                        this.converter("EUR", "BRL");
+                        this.converter("USD", "BRL");
                         break;
 
                     case "5":
-                        this.converter("USD", "EUR");
+                        this.converter("EUR", "BRL");
                         break;
 
                     case "6":
